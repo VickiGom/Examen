@@ -43,11 +43,11 @@ public class RectanguloActivity extends AppCompatActivity {
                 obg.setAltura(Float.parseFloat(alturaaa));
                 obg.setBase(Float.parseFloat(baseee));
                 if(estado){
-                    res.setText("Area: "+String.valueOf(obg.calcularPerimetro()));
+                    res.setText("Perimetro: "+String.valueOf(obg.calcularPerimetro()));
 
                 }
                 if(estado2){
-                    res.setText("Perimetro: " +String.valueOf(obg.calcularArea()));
+                    res.setText("Area: " +String.valueOf(obg.calcularArea()));
 
                 }
 

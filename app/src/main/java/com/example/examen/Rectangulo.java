@@ -31,9 +31,9 @@ public class Rectangulo implements Serializable {
         this.altura = altura;
     }
     public float calcularArea(){
-            return ((this.base*this.altura)/2);
+            return ((this.base*this.altura));
     }
     public float calcularPerimetro(){
-     return (this.base*3);
+     return (this.base*4);
     }
 }
